@@ -1,13 +1,10 @@
 body {
-    text-align: center;
-}
-
-#board {
-    background-color: black;
-    border-top: 5px solid skyblue;
-    border-bottom: 5px solid skyblue;
-}
-header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
     background-color: #333;
     color: white;
     padding: 1em 0;
@@ -41,6 +38,12 @@ header {
     position: fixed;
     width: 100%;
     bottom: 0;
+ }
+ .cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
  }
  .navbarPic{
    display: flex;

@@ -1,33 +1,53 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
- }
- #chessboard {
-    display: grid;
-    grid-template-columns: repeat(8, 50px);
-    grid-template-rows: repeat(8, 50px);
-    gap: 0;
-    border: 2px solid #333;
- }
- .square {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
- }
- .white {
-    background-color: #f0d9b5;
- }
- .black {
-    background-color: #b58863;
- }
- .piece {
-    cursor: pointer;
-    user-select: none;
- }
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #333;
+   color: white;
+   padding: 1em 0;
+   text-align: center;
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 1em;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+main {
+   padding: 2em;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 1em 0;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+}
+
+.carPage{
+   display: flex;
+   justify-content: center;
+
+}
+.navbarPic{
+   display: flex;
+   justify-content: left;
+
+}
+
